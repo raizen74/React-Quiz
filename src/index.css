@@ -127,6 +127,29 @@ header h1 {
   background: #6a558a;
 }
 
+#question progress.correct {
+  background: #5af59d;
+}
+
+#question progress.correct::-webkit-progress-value {
+  background: #5af59d;
+}
+
+#question progress.correct::-webkit-progress-bar {
+  background: #6a558a;
+}
+#question progress.wrong {
+  background: #f55a98;
+}
+
+#question progress.wrong::-webkit-progress-value {
+  background: #f55a98;
+}
+
+#question progress.wrong::-webkit-progress-bar {
+  background: #6a558a;
+}
+
 #question h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
