@@ -30,7 +30,7 @@ export default function Answers({
         ) {
           cssClasses = answerState;
         }
-
+// <button disabled> is a boolean that disables the button events
         return (
           <li key={answer} className='answer'>
             <button
